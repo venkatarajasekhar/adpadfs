@@ -1,0 +1,20 @@
+README for ADPADFS
+~~~~~~~~~~~~~~~~~~
+
+adpadfs is a simple program that when run, produces a series of asterisks followed by a Bell Character. It was written by Bradley Sadowsky.
+
+Usage:
+adpadfs [LENGTH]
+
+Version Info:
+adpadfs is currently on version 1.0.0
+
+Installation:
+
+$ make
+$ make install
+
+Warnings:
+adpadfs requires the Bell Character to be enabled. The bell character is disabled by default on:
+Ubuntu
+Alsa System
