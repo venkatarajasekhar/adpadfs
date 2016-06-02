@@ -11,6 +11,8 @@ int a_wrapper(void) {
   if ( isdigit(length) ) {
     curse(length);
     printf("\n");
+  } else if ( isalpha(length) ) {
+    printf("Error: Input not recognized--Exiting.\n");
   } else {
     printf("Error: Input not digit--Exiting.\n");
   }
