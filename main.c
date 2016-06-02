@@ -1,9 +1,5 @@
-//adpadfs : main.c
-//Written By: Bradley Sadowsky
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
+/*adpadfs : main.c
+  Written By: Bradley Sadowsky */
 #include "adpadfs.h"
 
 int main(int argc, char *argv[]) {
@@ -21,6 +17,8 @@ int main(int argc, char *argv[]) {
     }
   } else {
     printf("usage: %s length\n", argv[0]);
+    printf("Entering automated Adpadfs...\n");
+    a_wrapper(); /* Calls wrapper function */
   }
   return 0;
 }

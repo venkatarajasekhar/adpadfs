@@ -1,7 +1,5 @@
-//adpadfs : curse.c
-//Written By: Bradley Sadowsky
-
-#include <stdio.h>
+/*adpadfs : curse.c
+  Written By: Bradley Sadowsky */
 #include "adpadfs.h"
 
 int curse(int len){
