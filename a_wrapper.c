@@ -7,7 +7,12 @@ int a_wrapper(void) {
   printf("Automated Adpadfs System Version 1.0.0\n");
   printf("Input Curse Length: ");
   scanf("%d", &length);
-  curse(length);
-  printf("\n");
+  
+  if ( isdigit(length) ) {
+    curse(length);
+    printf("\n");
+  } else {
+    printf("Error: Input not digit--Exiting.\n");
+  }
   return 0;
 }
