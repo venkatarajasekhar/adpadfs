@@ -8,8 +8,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+
 int curse(int len);
 int mid_finger(void);
 int a_wrapper(void);
+void chk_egg(int egg);
 
 #endif
