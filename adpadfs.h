@@ -7,11 +7,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
+enum lstat {dead = 0, live = 1}; /*Life Status*/
+typedef enum lstat lstat;
 
 int curse(int len);
 int mid_finger(void);
 int a_wrapper(void);
+int rd_file(char *argv[]);
 void chk_egg(int egg);
 
 #endif

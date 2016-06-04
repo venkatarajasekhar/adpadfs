@@ -4,18 +4,23 @@ README for ADPADFS
 adpadfs is a simple program that when run, produces a series of asterisks followed by a Bell Character. It was written by Bradley Sadowsky.
 
 Usage:
-adpadfs [LENGTH]
+adpadfs [OPTIONS] [LENGTH] [FILENAME]
 
 or
 
 $ adpadfs
 usage: adpadfs length
 Entering automated Adpadfs...
-Automated Adpadfs System Version 1.0.0
+Automated Adpadfs System Version 2.0.0
 Input Curse Length: 
 
+or
+
+$ adpadfs file.curse #.curse file
+
+
 Version Info:
-adpadfs is currently on version 2.0.1
+adpadfs is currently on version 3.0.0
 
 Installation:
 
