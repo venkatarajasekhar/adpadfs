@@ -9,6 +9,8 @@
 #include <ctype.h>
 #include <string.h>
 
+#define VER "3.1.0"
+
 enum lstat {dead = 0, live = 1}; /*Life Status*/
 typedef enum lstat lstat;
 

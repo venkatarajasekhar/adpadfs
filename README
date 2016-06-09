@@ -11,7 +11,7 @@ or
 $ adpadfs
 usage: adpadfs length
 Entering automated Adpadfs...
-Automated Adpadfs System Version 2.0.0
+Automated Adpadfs System Version 2.1.0
 Input Curse Length: 
 
 or
@@ -20,7 +20,7 @@ $ adpadfs file.curse #.curse file
 
 
 Version Info:
-adpadfs is currently on version 3.0.0
+adpadfs is currently on version 3.1.0
 
 Installation:
 
