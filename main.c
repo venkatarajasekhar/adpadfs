@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
   long dig; /*Stores output of strtol*/
   int len;  /*Stores length of curse, equal to dig*/
-  int flen = strlen(argv[2]); /*Size of "filename" argument*/
+  int flen = strlen(argv[1]); /*Size of "filename" argument*/
 
   if ( argc == 2 ) {
     if ( isdigit(*argv[1]) ) {
