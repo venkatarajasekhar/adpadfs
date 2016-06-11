@@ -40,6 +40,8 @@ int main(int argc, char *argv[]) {
         } else {
           printf("Error: Not a curse file... Exiting.\n");
         }
+      } else {
+        printf("Error: Not a curse file... Exiting.\n");
       }
     } else {
       printf("Error: File does not exist... Exiting.\n");

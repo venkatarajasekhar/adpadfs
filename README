@@ -11,16 +11,16 @@ or
 $ adpadfs
 usage: adpadfs length
 Entering automated Adpadfs...
-Automated Adpadfs System Version 3.2.0
+Automated Adpadfs System Version 3.2.1
 Input Curse Length: 
 
 or
 
-$ adpadfs file.curse #.curse file
+$ adpadfs file.curse #curse file
 
 
 Version Info:
-adpadfs is currently on version 3.2.0
+adpadfs is currently on version 3.2.1
 
 Installation:
 
@@ -28,6 +28,7 @@ $ make
 $ make install
 
 One Line Install:
+
 cd ~ && git clone https://github.com/sadowskysoftware/adpadfs.git && cd adpadfs && make && make install && cd .. && rm -rf adpadfs
 
 Warnings:

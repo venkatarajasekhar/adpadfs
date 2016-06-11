@@ -10,7 +10,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define VER "3.2.0"
+#define VER "3.2.1"
 
 enum lstat {dead = 0, live = 1}; /*Life Status*/
 typedef enum lstat lstat;
