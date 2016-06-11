@@ -5,7 +5,6 @@
 int main(int argc, char *argv[]) {
   long dig; /*Stores output of strtol*/
   int len;  /*Stores length of curse, equal to dig*/
-  int flen = strlen(argv[1]); /*Size of "filename" argument*/
 
   if ( argc == 2 ) {
     if ( isdigit(*argv[1]) ) {
@@ -18,6 +17,7 @@ int main(int argc, char *argv[]) {
     }
     
   } else if ( argc == 3 ) {
+    int flen = strlen(argv[2]); /*Size of "filename" argument*/
     int same = strcmp(argv[1], "-f");
     if ( same == 0 && isalpha(*argv[2]) && flen > 6 ) {
       int end = strcmp(&argv[2][flen-6], ".curse"); /*Checks if ending is .curse*/
