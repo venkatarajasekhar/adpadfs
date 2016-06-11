@@ -27,6 +27,9 @@ Installation:
 $ make
 $ make install
 
+One Line Install:
+cd ~ && git clone https://github.com/sadowskysoftware/adpadfs.git && cd adpadfs && make && make install && cd .. && rm -rf adpadfs
+
 Warnings:
 adpadfs requires the Bell Character to be enabled. The bell character is disabled by default on:
 Ubuntu
